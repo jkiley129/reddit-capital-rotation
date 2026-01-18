@@ -17,11 +17,18 @@ reddit-capital-rotation/
 ├── README.md                                    # This file
 ├── reddit_capital_rotation_strategy.md          # Full strategy methodology
 ├── TOP_10_THEMES_QUICK_REFERENCE.md            # Quick reference guide
+├── config.json                                  # Configuration (paths, tickers)
+├── generate_report.sh                           # Quick runner script
 ├── analysis/
 │   └── 2026_emerging_themes_analysis.md        # Detailed theme analysis
 ├── data/
 │   └── example_report.txt                       # Example monitoring report
 └── scripts/
+    ├── README.md                                # Scripts documentation
+    ├── live_report_generator.py                 # Core report generation engine
+    ├── execute_live_report.py                   # Production script with real data
+    ├── generate_live_report_with_search.py      # Integration helper
+    ├── run_report.py                            # Legacy runner
     └── reddit_monitor.py                        # Python monitoring script
 ```
 
@@ -116,6 +123,102 @@ This strategy provides a **2-4 week time advantage** over mainstream Wall Street
 - Contrarian warnings of overvaluation
 - **Action**: Reduce exposure, lock in gains
 
+## 📊 Live Report Generator
+
+### What It Does
+
+The live report generator (`scripts/live_report_generator.py`) automatically:
+
+1. **Executes Web Searches** - Queries covering:
+   - Reddit WallStreetBets trending stocks
+   - AI stocks, quantum computing, biotech momentum
+   - Space stocks (ASTS, RKLB, satellite companies)
+   - Nuclear energy (SMR, CEG)
+   - Custom AI chips (Broadcom AVGO)
+   - Individual ticker deep-dives (ASTS, POET, RDDT, etc.)
+   - Market themes and capital rotation
+   - Small cap stocks with insider buying
+
+2. **Analyzes Content** - Extracts:
+   - Ticker mentions and frequency
+   - Investment theme identification
+   - Sentiment analysis (positive/neutral/negative)
+   - Catalysts and news events
+   - Analyst ratings and price targets
+
+3. **Generates Reports** - Creates comprehensive markdown with:
+   - Executive summary (top 3 themes)
+   - Top 10 investment themes ranked by conviction
+   - Ticker momentum tables (gaining/stable/losing)
+   - Risk management guidelines
+   - Data sources and methodology
+
+4. **Tracks Evolution** - Saves historical data:
+   - `ticker_history.csv` - Mention counts over time
+   - `theme_evolution.json` - Theme progression tracking
+   - Compares to previous reports to identify momentum shifts
+
+### Report Features
+
+Each generated report includes:
+
+- **Theme Rankings** - Conviction-based ordering with fire indicators (🔥🔥🔥🔥🔥)
+- **Ticker Analysis** - Associated tickers for each theme
+- **Sentiment Breakdown** - Positive/neutral/negative percentages
+- **Momentum Tracking** - Comparing to previous reports
+- **Risk Warnings** - Position sizing, stop-loss guidance
+- **Source Attribution** - Search queries and data sources
+
+### Example Output
+
+```markdown
+## 1. Space Connectivity
+Signal Strength: 🔥🔥🔥🔥🔥
+
+High-Potential Tickers:
+- ASTS - 3 mentions, positive sentiment
+- RKLB - 2 mentions, positive sentiment
+
+Market Sentiment:
+- Positive: 83%
+- Neutral: 17%
+
+Data Points: 6 mentions across sources
+```
+
+### Data Tracking
+
+The system maintains historical tracking for trend analysis:
+
+**ticker_history.csv:**
+```csv
+date,ticker,mentions,tier,theme,sentiment
+2026-01-18,ASTS,3,Tier 1,Space Connectivity,positive
+2026-01-18,AVGO,1,Tier 1,Custom AI Chips,positive
+```
+
+**theme_evolution.json:**
+```json
+{
+  "date": "2026-01-18",
+  "themes": {
+    "Space Connectivity": {
+      "mentions": 6,
+      "tickers": ["ASTS", "RKLB"],
+      "sentiment": ["positive", "positive"]
+    }
+  }
+}
+```
+
+### Integration with Obsidian
+
+Reports are automatically saved to your Obsidian vault with:
+- Markdown formatting for easy reading
+- Wikilinks for navigation between reports
+- Index page with links to all reports
+- Data files for analysis and charting
+
 ## 🔍 Key Subreddits Monitored
 
 ### Primary Sources
@@ -133,16 +236,55 @@ This strategy provides a **2-4 week time advantage** over mainstream Wall Street
 
 ## 🚀 Getting Started
 
-### 1. Review Core Strategy
+### Quick Start: Generate a Live Report Now
+
+The fastest way to get started is to generate a live report with real data:
+
+```bash
+cd ~/Development/reddit-capital-rotation
+./generate_report.sh
+```
+
+Or using Python directly:
+```bash
+python3 scripts/execute_live_report.py
+```
+
+This will:
+- Analyze 10+ web searches covering Reddit trends, AI stocks, space stocks, nuclear energy, and more
+- Extract ticker mentions and sentiment
+- Identify emerging investment themes
+- Generate a comprehensive markdown report
+- Save to your Obsidian vault
+- Track data in CSV/JSON for trend analysis
+
+**Report Location:** `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Vault/Investment Research/Reddit Capital Rotation/`
+
+### Step-by-Step Guide
+
+#### 1. Review Core Strategy
 Read `reddit_capital_rotation_strategy.md` for full methodology
 
-### 2. Study Current Themes
+#### 2. Study Current Themes
 Review `analysis/2026_emerging_themes_analysis.md` for detailed theme breakdowns
 
-### 3. Quick Reference
-Use `TOP_10_THEMES_QUICK_REFERENCE.md` for at-a-glance positioning
+#### 3. Generate Your First Live Report
+```bash
+./generate_report.sh
+```
 
-### 4. Set Up Monitoring (Optional)
+#### 4. Review in Obsidian
+Open your Obsidian vault and navigate to:
+`Investment Research/Reddit Capital Rotation/`
+
+#### 5. Track Evolution Over Time
+Run the report generator every 2-3 days to track:
+- Ticker momentum changes
+- Theme progression (gaining/losing traction)
+- Sentiment shifts
+- New emerging opportunities
+
+#### 6. Advanced: Set Up Monitoring (Optional)
 - Install dependencies: `pip install praw pandas`
 - Configure Reddit API credentials in `scripts/reddit_monitor.py`
 - Run: `python scripts/reddit_monitor.py`
