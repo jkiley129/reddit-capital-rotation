@@ -1,6 +1,14 @@
 # Reddit Capital Rotation Strategy
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Status: Active](https://img.shields.io/badge/status-active-success.svg)
+
 A systematic approach to identifying emerging investment themes from Reddit social media chatter before Wall Street and mainstream media fully embrace them.
+
+**🎯 Time Advantage: 2-4 weeks ahead of mainstream coverage**
+
+> "Be early, not late. Be selective, not indiscriminate. Be disciplined, not emotional."
 
 ## 📁 Project Structure
 
@@ -47,11 +55,14 @@ This strategy provides a **2-4 week time advantage** over mainstream Wall Street
 ## 📊 Key Findings Summary
 
 ### Top 5 Tickers by Conviction
-1. **ASTS** - 241% return in 2025, highest WSB conviction, AT&T FirstNet H1 2026 target
-2. **AVGO** - 70-80% custom ASIC market share, OpenAI chip partnership
-3. **POET** - Optical interconnects, high risk/reward, sub-$5 entry point
-4. **SMR** - Only NRC-certified SMR design in U.S., Trump regulatory tailwinds
-5. **RDDT** - Needham "best idea 2026", 64% EPS growth forecast FY2026
+
+| Rank | Ticker | Theme | Key Catalyst | Risk/Reward |
+|------|--------|-------|--------------|-------------|
+| 1 | **ASTS** | Space Connectivity | 45-60 satellite launches 2026, AT&T FirstNet H1 2026 | High volatility, 241% in 2025 |
+| 2 | **AVGO** | Custom AI Chips | OpenAI 10GW partnership, 70-80% ASIC market share | Market leader, large cap |
+| 3 | **POET** | Optical Interconnects | 800G/1.6T/3.2T volume shipments 2026 | Early-stage, sub-$5 entry |
+| 4 | **SMR** | Nuclear for AI | Only NRC-certified SMR design, Trump orders | Regulatory tailwinds |
+| 5 | **RDDT** | AI Monetization | Needham $300 PT, 64% EPS growth FY2026 | Platform data moat |
 
 ### Signal Strength by Theme
 - 🔥🔥🔥🔥🔥 Very Strong: Space connectivity, Custom AI chips
