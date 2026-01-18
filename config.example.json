@@ -1,0 +1,16 @@
+{
+  "obsidian_vault_path": "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Vault",
+  "reports_subfolder": "Investment Research/Reddit Capital Rotation",
+  "run_frequency_days": 3,
+  "tickers": {
+    "Tier 1": ["ASTS", "RKLB", "AVGO", "MRVL", "POET", "TSMC", "QBTS", "SMR", "CEG", "D", "LEU", "BWXT"],
+    "Tier 2": ["GOOGL", "IONQ", "RGTI", "NBIS", "FCX", "SCCO", "ALB", "RDDT", "META"],
+    "Tier 3": ["VSTS", "HFWA", "EBF"]
+  },
+  "subreddits": [
+    "wallstreetbets",
+    "stocks",
+    "investing",
+    "stockmarket"
+  ]
+}

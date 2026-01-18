@@ -29,6 +29,7 @@ env/
 .env
 credentials.json
 config.ini
+config.json
 *_credentials.txt
 
 # Data files (personal trading data)
