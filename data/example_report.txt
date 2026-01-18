@@ -1,0 +1,114 @@
+
+╔═══════════════════════════════════════════════════════════════╗
+║          REDDIT CAPITAL ROTATION DAILY REPORT                 ║
+║          2026-01-18 14:30:00                                  ║
+╚═══════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════
+TOP 20 MOST MENTIONED TICKERS (7-Day Window)
+═══════════════════════════════════════════════════════════════
+
+ 1. NVDA   -  312 mentions [--]
+ 2. AAPL   -  298 mentions [--]
+ 3. MSFT   -  267 mentions [--]
+ 4. ASTS   -  247 mentions [T1] ⭐ HIGH CONVICTION
+ 5. AMZN   -  234 mentions [--]
+ 6. TSLA   -  223 mentions [--]
+ 7. AVGO   -  189 mentions [T1] ⭐ HIGH CONVICTION
+ 8. TSMC   -  156 mentions [T1] ⭐ HIGH CONVICTION
+ 9. RDDT   -  145 mentions [T2]
+10. GOOGL  -  134 mentions [T2]
+11. POET   -   98 mentions [T1] ⭐ HIGH CONVICTION 🔥 MOMENTUM SPIKE
+12. IONQ   -   87 mentions [T2]
+13. SMR    -   76 mentions [T1] ⭐ HIGH CONVICTION 🔥 MOMENTUM SPIKE
+14. CEG    -   65 mentions [T1] ⭐ HIGH CONVICTION
+15. RKLB   -   54 mentions [T1] ⭐ HIGH CONVICTION
+16. META   -   52 mentions [T2]
+17. QBTS   -   43 mentions [T1] ⭐ HIGH CONVICTION
+18. MRVL   -   41 mentions [T1] ⭐ HIGH CONVICTION
+19. RGTI   -   38 mentions [T2]
+20. D      -   35 mentions [T1] ⭐ HIGH CONVICTION
+
+═══════════════════════════════════════════════════════════════
+⚠️  MOMENTUM ALERTS (3x+ vs 30-day baseline)
+═══════════════════════════════════════════════════════════════
+
+🔥 POET: 3.9x momentum (98 current vs 25 baseline)
+   - EMERGING THEME: Optical interconnects for AI data centers
+   - CATALYST: Foxconn design win, volume shipments expected 2026
+   - ACTION: Early Phase 2 (Building Momentum) - Consider 1-2% position
+
+🔥 SMR: 3.8x momentum (76 current vs 20 baseline)
+   - EMERGING THEME: Nuclear power for AI infrastructure
+   - CATALYST: Trump executive orders, Microsoft-Constellation deal
+   - ACTION: Phase 2 (Building Momentum) - Small exploratory position
+
+🔥 TSMC: 18.1x momentum (156 current vs 8.6 baseline) ⚠️ UNUSUAL SPIKE
+   - SUDDEN 1808% mention increase in 24 hours on WSB
+   - Likely driven by: Taiwan geopolitics + AI chip manufacturing dominance
+   - ACTION: Research catalyst, potential false signal if news-driven
+
+═══════════════════════════════════════════════════════════════
+TIER 1 TRACKER (High Conviction Holdings)
+═══════════════════════════════════════════════════════════════
+
+📈 ASTS   -  247 mentions  [Phase 3: Mainstream Awareness]
+📈 AVGO   -  189 mentions  [Phase 3: Mainstream Awareness]
+📈 TSMC   -  156 mentions  [Phase 2: Building Momentum - SPIKE ALERT]
+📈 POET   -   98 mentions  [Phase 2: Building Momentum - NEW]
+📈 SMR    -   76 mentions  [Phase 2: Building Momentum - NEW]
+📊 CEG    -   65 mentions  [Phase 2: Building Momentum]
+📊 RKLB   -   54 mentions  [Phase 2: Building Momentum]
+📊 QBTS   -   43 mentions  [Phase 1-2: Early Detection → Building]
+📊 MRVL   -   41 mentions  [Phase 2: Building Momentum]
+📊 D      -   35 mentions  [Phase 1: Early Detection]
+📉 LEU    -   18 mentions  [Phase 1: Early Detection]
+📉 BWXT   -   12 mentions  [Phase 1: Early Detection]
+
+═══════════════════════════════════════════════════════════════
+📊 CROSS-SUBREDDIT ANALYSIS
+═══════════════════════════════════════════════════════════════
+
+ASTS progression:
+  r/wallstreetbets → r/stocks → r/investing ✅ VALIDATED
+  Theme has crossed into mainstream investing subs
+
+POET progression:
+  r/Semiconductors → r/wallstreetbets (emerging) ⚠️ EARLY STAGE
+  Limited r/stocks presence yet - EARLY OPPORTUNITY
+
+SMR/Nuclear progression:
+  r/energy → r/investing → r/wallstreetbets (building) 📈 MOMENTUM
+  Multi-sub validation confirms theme strength
+
+═══════════════════════════════════════════════════════════════
+🎯 RECOMMENDED ACTIONS (January 18, 2026)
+═══════════════════════════════════════════════════════════════
+
+HOLD/ACCUMULATE:
+  • ASTS - Strong momentum, multiple catalysts in 2026
+  • AVGO - OpenAI partnership underappreciated, OpenAI partnership deployments late 2026
+
+INITIATE POSITIONS (Phase 2 - Building Momentum):
+  • POET - Early momentum spike, high risk/reward at sub-$5
+  • SMR - Nuclear theme gaining traction, regulatory tailwinds
+
+WATCH LIST (Phase 1 - Early Detection):
+  • LEU - Only domestic HALEU supplier, following SMR interest
+  • BWXT - Nuclear components play, derivative of SMR theme
+  • D - Amazon SMR partnership, lower mention volume but solid fundamentals
+
+REDUCE/TAKE PROFITS:
+  • None currently in "Peak Saturation" phase
+  • Monitor ASTS if it crosses 500+ weekly mentions (FOMO risk)
+
+═══════════════════════════════════════════════════════════════
+
+Report generated: 2026-01-18 14:30:00
+Next update: 2026-01-19 14:30:00
+
+Methodology: 7-day rolling mention count vs 30-day baseline
+Data sources: r/wallstreetbets, r/stocks, r/investing, r/StockMarket,
+              r/options, r/biotechplays, r/Semiconductors
+
+═══════════════════════════════════════════════════════════════
